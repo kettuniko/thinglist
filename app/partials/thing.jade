@@ -1,7 +1,8 @@
-| {{thing.name}}
-.item(ng-repeat='item in thing.items')
-  .col
-    | {{item.name}}
-    | {{item.time}}
-  .col.right-col
-    | {{item.description}}
+.thing
+  | {{thing.name}}
+  .item(ng-repeat='item in thing.items')
+    .col
+      div {{item.name}}
+      div {{item.time}}
+    .col.right-col
+      | {{item.description}}
