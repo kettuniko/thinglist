@@ -1,7 +1,7 @@
-    | {{thing.name}}
-    .item(ng-repeat='item in thing.items')
-        .col
-            | {{item.name}}
-            | {{item.year}}
-        .col.right-col
-            | {{item.description}}
+| {{thing.name}}
+.item(ng-repeat='item in thing.items')
+  .col
+    | {{item.name}}
+    | {{item.time}}
+  .col.right-col
+    | {{item.description}}

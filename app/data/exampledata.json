@@ -3,12 +3,12 @@
     "items": [
         {
             "name": "A Game of Thrones",
-            "year": "1996",
+            "time": "1996",
             "description": "Burnt black bacon"
         },
         {
             "name": "Clean Code",
-            "year": "2008",
+            "time": "2008",
             "description": "Read.this"
         }
     ]
